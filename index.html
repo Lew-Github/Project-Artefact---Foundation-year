@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home</title>
+  <link href="Home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <header>
+    <img src="Logo.png" id="Logo">
+    <ul id="nav">
+      <li id="home"> <a href="index.html"> Home </a> </li>
+      <li id="help"> <a href="Help.html"> Find Help </a></li>
+      <li id="donate"> <a href="Donate.html">Donate</a></li>
+      <li id="about"> <a href="About.html"> About us </a> </li>
+      <li id="Contact"> <a href="Contact.html"> Contact us </a></li>
+    </ul>
+  </header>
+  <div id="section1">
+    <h1 id="here"> We're here to help!</h1>
+    <h2 id="struggle"> Here at mental health we aim to raise awareness <br>of the different mental struggles people
+      face. <br> We pledge to offer support and <br> advice to anyone who needs it. </h1>
+  </div>
+
+  <div id="section2">
+    <h1 id="alone"> You're not alone!</h1>
+    <p id="know"> Did you know? </p>
+    <ul id="anxiety">
+      <lh> Anxiety: </lh>
+      <li> Every week in england, 6 in 100 people will be diagnosed with Generalised Anxiety Disorder <br> and over 8
+        million people in the UK are experiencing an axiety disorder at any one time. <br> (read more <a href = "https://championhealth.co.uk/insights/anxiety-statistics/">here</a>)</li>
+    </ul>
+    <ul id="depression">
+      <lh> Depression: </lh>
+      <li> Around 1 out of 6 people in the UK are experiencing depression <br> (read more <a href = "https://championhealth.co.uk/insights/depression-statistics/#:~:text=Depression%20is%20one%20of%20the,to%20experience%20depression%20than%20men.">here</a>)</li>
+    </ul>
+    <ul id="stress">
+      <lh>Stress:</lh>
+      <li> One in 14 UK adults feel stressed every single day <br> (read more <a href = "https://championhealth.co.uk/insights/stress-statistics/">here</a>)</li>
+    </ul>
+    <ul id="thoughts">
+      <lh> Suicide:</lh>
+      <li> Over 700,000 people take their own life each year – that’s one person every 40 seconds <br> (read more <a href = "https://www.who.int/health-topics/suicide#tab=tab_1">here</a>)</li>
+      <li> 1 in 5 people have suicidal thoughts <br> (read more <a href = "https://www.mind.org.uk/information-support/types-of-mental-health-problems/statistics-and-facts-about-mental-health/how-common-are-mental-health-problems/#:~:text=Suicidal%20thoughts%20and%20self%2Dharm&text=Over%20the%20course%20of%20someone's,in%2015%20people%20attempt%20suicide.">here</a>)</li>
+    </ul>
+    <img src="self.png" id="talk">
+  </div>
+  <div id="section3">
+    <h1 id="identify"> Here is some information about several different forms of mental health and how to identify them.
+      <br> If you experience any of these symptoms below please talk to a health care professional. </h1>
+    <img src="Mind.png" id="mind">
+    <button id="self" onclick=clickEvent1()> Self-Harm and Suicidal thoughts </button>
+    <button id="ocd" onclick=clickEvent2()> Obsessive-Compulsive Disorder </button>
+    <button id="body" onclick=clickEvent3()> Body Dysmorphic Disorder </button>
+    <button id="eat" onclick=clickEvent4()> Eating Problems </button>
+    <button id="schizo" onclick=clickEvent5()> Schizophrenia </button>
+    <button id="dep" onclick=clickEvent6()> Depression </button>
+    <button id="anx" onclick=clickEvent7()> Anxiety </button>
+    <h2 id="symptoms"> Symptoms may include: </h2>
+    <h2 id="output"></h2>
+  </div>
+  <div id="section4">
+    <div id="box1">
+      <img id="boxpic1" src="care2.png">
+    </div>
+    <div id="box2">
+      <img id="boxpic2" src="download.jpg">
+    </div>
+    <h1 id="quote">“Self-care is how you take your power back.” – Lalah Delia</h1>
+  </div>
+  <footer id="footer">
+    <a href="Terms.html" id="terms" onclick="basicPopup(this.href);return false">Terms and Conditions</a>
+    <img src = "Instagram.png" id = "insta">
+    <img src = "Twitter.png" id = "twitter">
+    <img src = "Facebook.png" id = "face">
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="Home.js"></script>
+</body>
+
+</html>

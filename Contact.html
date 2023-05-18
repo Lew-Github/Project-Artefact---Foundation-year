@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About us </title>
+  <link href="Contact.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<header>
+<img src = "Logo.png" id = "Logo">
+  <ul id = "nav">
+    <li id = "home"> <a href = "index.html"> Home </a> </li>
+    <li id = "help"> <a href = "Help.html"> Find Help </a></li>
+    <li id = "donate"> <a href ="Donate.html">Donate</a></li>
+    <li id = "about"> <a href = "About.html"> About us</a></li>
+    <li id = "Contact"> <a href = "Contact.html"> Contact us </a></li>
+  </ul>
+</header>
+
+
+<h1 id  = "need"> Need to get in touch? </h1>
+<p id = "please"> Please fill out this form <br> it will send an email straight to us!</p>
+
+<form>
+  <label for="fname" id ="fname">First name:</label><br>
+  <input type="text" id="fnameinput" name="fname"><br>
+  <label for="email" id = "emailLabel">Email Address:</label>
+  <input type="email" id="email" name="email">
+  <label for="phone" id = "phoneLabel"">Phone Number:</label>
+  <input type="phonenumber" id="phone" name="phone">
+  <textarea id = "reason"> What do you want to say?</textarea>
+</form>
+  
+  
+  
+<footer id ="footer">
+<a href="Terms.html" id = "terms" onclick="basicPopup(this.href);return false">Terms and Conditions</a>
+  <img src = "Instagram.png" id = "insta">
+  <img src = "Twitter.png" id = "twitter">
+  <img src = "Facebook.png" id = "face">
+</footer>
+
+<script src="Contact.js"></script>
+</body>
+
+</html>

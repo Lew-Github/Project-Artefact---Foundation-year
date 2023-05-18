@@ -1,0 +1,396 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #77DD77;
+  color: white ;
+}
+
+header{
+  position:absolute;
+  background-color: white;
+  height:20%;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+@font-face {
+  font-family: hand;
+  src: url(hand.ttf);
+}
+
+@font-face {
+  font-family: hand2;
+  src: url(hand2.ttf);
+}
+@font-face {
+  font-family: titan;
+  src: url(TitanOne.ttf);
+}
+
+@font-face {
+  font-family:fact;
+  src:url(CousineBold.ttf)
+}
+
+@font-face{
+  font-family:fact2;
+  src:url(CousineRegular.ttf)
+}
+
+@font-face {
+  font-family: prof;
+  src: url(professional.ttf);
+}
+
+@font-face {
+  font-family: k;
+  src: url(Kalam.ttf);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Keeps the button fixed to the page */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: yellow; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#nav {
+  list-style-type: none;
+  text-decoration: none;
+  display:flex;
+  margin-left: 17%;
+  margin-top:3.25%;
+  color:black;
+}
+#nav li {
+  padding-right:7%;
+  font-size:250%;
+} 
+
+#nav li a{
+  text-decoration: none;
+  color: black;
+  font-family:k
+} 
+
+
+#here{
+  text-align:center;
+  position:absolute;
+  top:15%;
+  left:26%;
+  font-family: "hand";
+  font-size:80px;
+}
+
+#struggle {
+  text-align: center;
+  position:absolute;
+  top:42.5%;
+  left:23%;
+  font-size: 45px;
+  font-family:"hand2";
+}
+#Logo {
+  height:100px;
+  width:100px;
+  position:absolute;
+  left:110px;
+  top:30px;
+}
+
+#section2{
+  height:110%;
+  width:100%;
+  position:absolute;
+  background-color: #65cbe9;
+  left:0;
+  top:105%;
+}
+
+#alone {
+  font-size:80px;
+  display:flex;
+  position:absolute;
+  left:5%;
+  top:5%;
+  font-weight:1000px;
+  font-family:titan;
+}
+
+#know {
+  position:absolute;
+  font-size:200%;
+  top:25%;
+  left:5%;
+  font-family:fact;
+}
+
+#anxiety {
+  position:absolute;
+  left:2.5%;
+  top:32.5%;
+  font-family:fact2;
+}
+
+#depression{
+  position:absolute;
+  left:2.5%;
+  top:44%;
+  font-family:fact2;
+}
+
+#stress{
+  position:absolute;
+  left:2.5%;
+  top:52%;
+  font-family:fact2;
+}
+
+#thoughts{
+  position:absolute;
+  left:2.5%;
+  top:61%;
+  font-family:fact2;
+}
+
+#talk{
+  height:65%;
+  width:30%;
+  position:absolute;
+  right:6.5%;
+  top:12.5%;
+}
+
+#section3 {
+  position:absolute;
+  top:200%;
+  width:100%;
+  height:120%;
+  left:0;
+  background-color:salmon;
+  
+}
+
+#identify {
+  text-align: center;
+  position: absolute;
+  left: 7%;
+  font-family: prof;
+}
+
+
+#mind {
+  position:absolute;
+  left:22.5%;
+  top:30%;
+  height:300px;
+  width:300px;
+}
+
+#self {
+  position:absolute;
+  left:5%;
+  top:52.5%;
+  font-size:15px;
+  border-radius: 200px;
+  padding:20px;
+  font-family: prof;
+  font-weight: bold;
+}
+
+#ocd {
+  position:absolute;
+  left:6.5%;
+  top:37.5%;
+  font-size:15px;
+  border-radius: 200px;
+  padding:20px;
+  font-family: prof;
+  font-weight: bold;
+}
+
+#body {
+  position:absolute;
+  left:9.5%;
+  top:25%;
+  font-size:15px;
+  border-radius: 200px;
+  padding:20px;
+  font-family: prof;
+  font-weight: bold;
+}
+
+#eat{
+  position:absolute;
+  left:26.5%;
+  top:20%;
+  font-size:15px;
+  border-radius: 200px;
+  padding:20px;
+  font-family: prof;
+  font-weight: bold;
+}
+
+#schizo {
+  position:absolute;
+  left:40%;
+  top:25%;
+  font-size:15px;
+  border-radius: 200px;
+  padding:20px;
+  font-family: prof;
+  font-weight: bold;
+}
+
+#dep{
+  position:absolute;
+  left:42.5%;
+  top:37.5%;
+  font-size:15px;
+  border-radius: 200px;
+  padding:20px;
+  font-family: prof;
+  font-weight: bold;
+}
+
+#anx {
+  position:absolute;
+  left:45%;
+  top:52.5%;
+  font-size:15px;
+  border-radius: 200px;
+  padding:20px;
+  font-family: prof;
+  font-weight: bold;
+}
+
+#symptoms {
+  position:absolute;
+  top:13%;
+  right:15%;
+  text-decoration:underline;
+  font-family: prof;
+}
+
+#output {
+  position:absolute;
+  top:19%;
+  right:5%;
+  font-family: prof;
+}
+
+.active {
+  background-color:#e75480;
+}
+
+#section4 {
+  position:absolute;
+  top:310%;
+  width:100%;
+  height:120%;
+  left:0;
+  background-color:white;
+}
+
+#box1 {
+  position:absolute;
+  top:12.5%;
+  height:50%;
+  width:35%;
+  left:12%;
+  background-color:white;
+}
+
+#box2 {
+  position:absolute;
+  top:12.5%;
+  height:50%;
+  width:35%;
+  right:13%;
+  color:black;
+  text-align:center;
+  background-color:white;
+}
+
+#boxpic1{
+  height:85%;
+  width:75%;
+  position:absolute;
+  left:10%;
+  color:black;
+}
+
+#boxpic2 {
+  position:absolute;
+  height:75%;
+  width:100%;
+  right:0%;
+}
+
+#quote{
+  position:absolute;
+  top:60%;
+  font-size:350%;
+  left:2.5%;
+  color:#967BB6;
+}
+
+#footer{
+  top:410%;
+  position:absolute;
+  left:0;
+  height:20%;
+  width:100%;
+  background-color:#967BB6;
+}
+
+#terms {
+  text-decoration: none;
+  font-size:125%;
+  position:absolute;
+  top:45%;
+  left:5%;
+  color:white;
+}
+
+#insta {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:10%;
+  top:40%;
+  
+}
+
+#twitter {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:14%;
+  top:40%;
+  
+}
+
+#face {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:6%;
+  top:40%;
+  
+}

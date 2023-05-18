@@ -1,0 +1,287 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color:white;
+  color: white ;
+}
+@font-face {
+  font-family: k;
+  src: url(Kalam.ttf);
+}
+
+header{
+  position:absolute;
+  background-color: white;
+  height:20%;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Keeps the button fixed to the page */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: yellow; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#Logo {
+  height:100px;
+  width:100px;
+  position:absolute;
+  left:110px;
+  top:30px;
+}
+
+#nav {
+  list-style-type: none;
+  text-decoration: none;
+  display:flex;
+  margin-left: 17%;
+  margin-top:3.25%;
+  color:orange;
+}
+#nav li {
+  padding-right:7%;
+  font-size:250%;
+} 
+
+#nav li a{
+  text-decoration: none;
+  color: black;
+  font-family:k;
+} 
+
+#support{
+  position:absolute;
+  left:10%;
+  top:32.5%;
+  color:yellowgreen;
+  font-size:500%;
+  text-align: center;
+  
+}
+
+#hands{
+  position:absolute;
+  right:2.5%;
+  top:20%;
+  height:70%;
+  width:40%;
+}
+
+button:hover {
+  color:white;
+  background-color:black;
+}
+#box1 {
+  position:absolute;
+  top:125%;
+  height:50%;
+  width:27.5%;
+  left:5%;
+  background-color:orange;
+}
+
+#mind {
+  top:5%;
+  height:40%;
+  width:80%;
+  position:absolute;
+  left:10%;
+}
+
+#mind2 {
+  position:absolute;
+  top:70%;
+  height:15%;
+  width:60%;
+  left:20%;
+  border-radius:80px;
+}
+
+#box2 {
+  position:absolute;
+  top:125%;
+  height:50%;
+  width:27.5%;
+  left:37.5%;
+  background-color:orange;
+}
+
+#mhuk {
+  top:5%;
+  height:40%;
+  width:80%;
+  position:absolute;
+  left:10%;
+}
+
+#mhuk2 {
+  position:absolute;
+  top:70%;
+  height:15%;
+  width:60%;
+  left:20%;
+  border-radius:80px;
+}
+
+#box3 {
+  position:absolute;
+  top:125%;
+  height:50%;
+  width:27.5%;
+  left:70%;
+  background-color:orange;
+}
+
+#man {
+  top:5%;
+  height:40%;
+  width:80%;
+  position:absolute;
+  left:10%;
+}
+
+#man2 {
+  position:absolute;
+  top:70%;
+  height:15%;
+  width:60%;
+  left:20%;
+  border-radius:80px;
+}
+
+
+#box4 {
+  position:absolute;
+  top:200%;
+  height:50%;
+  width:27.5%;
+  left:5%;
+  background-color:orange;
+}
+
+#child {
+  top:5%;
+  height:40%;
+  width:80%;
+  position:absolute;
+  left:10%;
+}
+
+#child2 {
+  position:absolute;
+  top:70%;
+  height:15%;
+  width:60%;
+  left:20%;
+  border-radius:80px;
+}
+
+
+#box5 {
+  position:absolute;
+  top:200%;
+  height:50%;
+  width:27.5%;
+  left:37.5%;
+  background-color:orange;
+}
+
+#rethink {
+  top:5%;
+  height:40%;
+  width:80%;
+  position:absolute;
+  left:10%;
+}
+
+#rethink2 {
+  position:absolute;
+  top:70%;
+  height:15%;
+  width:60%;
+  left:20%;
+  border-radius:80px;
+}
+
+#box6 {
+  position:absolute;
+  top:200%;
+  height:50%;
+  width:27.5%;
+  left:70%;
+  background-color:orange;
+}
+
+#mental {
+  top:5%;
+  height:40%;
+  width:80%;
+  position:absolute;
+  left:10%;
+}
+
+#mental2 {
+  position:absolute;
+  top:70%;
+  height:15%;
+  width:60%;
+  left:20%;
+  border-radius:80px;
+}
+
+#footer{
+  top:270%;
+  position:absolute;
+  left:0;
+  height:20%;
+  width:100%;
+  background-color:#967BB6;
+}
+
+#terms {
+  text-decoration: none;
+  font-size:125%;
+  position:absolute;
+  top:45%;
+  left:5%;
+  color:white;
+}
+
+#insta {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:10%;
+  top:40%;
+  
+}
+
+#twitter {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:14%;
+  top:40%;
+  
+}
+
+#face {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:6%;
+  top:40%;
+  
+}

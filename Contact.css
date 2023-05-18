@@ -1,0 +1,165 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color:#FFD629;
+  color:  navy;
+}
+
+@font-face {
+  font-family: k;
+  src: url(Kalam.ttf);
+}
+
+header{
+  position:absolute;
+  background-color: white;
+  height:20%;
+  width:100%;
+  top:0;
+  left:0;
+}
+#Logo {
+  height:100px;
+  width:100px;
+  position:absolute;
+  left:110px;
+  top:30px;
+}
+#nav {
+  list-style-type: none;
+  text-decoration: none;
+  display:flex;
+  margin-left: 17%;
+  margin-top:3.25%;
+  color: navy;
+  
+}
+#nav li {
+  padding-right:7%;
+  font-size:250%;
+} 
+
+#nav li a{
+  text-decoration: none;
+  color: black;
+  font-family:k
+} 
+
+#need {
+  position:absolute;
+  top:35%;
+  left:5%;
+  font-size:450%;
+  text-align: center;
+  
+}
+
+#please{
+  position:absolute;
+  top:50%;
+  font-size:200%;
+  left:10%;
+  text-align: center;
+}
+
+#fname{
+  position:absolute;
+  font-size:200%;
+  right:32%;
+  top:31%;
+}
+#fnameinput{
+  position:absolute;
+  right:20%;
+  top:32%;
+  width:10%;
+  height:2.5%;
+}
+
+#emailLabel{
+  position:absolute;
+  font-size:200%;
+  right:32%;
+  top:37%;
+}
+#email{
+  position:absolute;
+  right:18%;
+  top:38%;
+  width:12%;
+  height:2.5%;
+}
+
+#phoneLabel{
+  position:absolute;
+  font-size:200%;
+  right:32%;
+  top:43%;
+}
+
+#phone{
+  position:absolute;
+  right:18%;
+  top:44%;
+  width:12%;
+  height:2.5%;
+}
+
+#reasonLabel{
+  position:absolute;
+  font-size:200%;
+  right:24%;
+  top:50%;
+}
+
+#reason{
+  position:absolute;
+  right:15%;
+  top:50%;
+  width:30%;
+  height:20%;
+}
+
+#footer{
+  top:100%;
+  position:absolute;
+  left:0;
+  height:20%;
+  width:100%;
+  background-color:#967BB6;
+}
+#terms {
+  text-decoration: none;
+  font-size:125%;
+  position:absolute;
+  top:45%;
+  left:5%;
+  color:white;
+}
+
+#insta {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:10%;
+  top:40%;
+  
+}
+
+#twitter {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:14%;
+  top:40%;
+  
+}
+
+#face {
+  height:26%;
+  width:2.5%;
+  position:absolute;
+  right:6%;
+  top:40%;
+  
+}
